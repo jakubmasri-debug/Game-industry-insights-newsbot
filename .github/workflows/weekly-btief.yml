@@ -1,0 +1,52 @@
+name: Weekly gaming brief
+
+on:
+  schedule:
+    # 06:13 UTC every Monday = 08:13 Prague (summer) / 07:13 (winter).
+    # Odd minute deliberately: on-the-hour cron jobs are the most likely to be
+    # delayed or dropped by GitHub under load. Cron is always UTC, no DST.
+    - cron: "13 6 * * 1"
+  workflow_dispatch:        # lets you trigger it manually to test
+
+permissions:
+  contents: write        # needed to commit state.json back
+
+jobs:
+  brief:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install --quiet requests feedparser
+
+      - name: Send brief
+        env:
+          # Mapped to the secrets that already exist in this repo (news bot).
+          # To use a dedicated gaming bot instead, create one in BotFather, add
+          # GAMING_TELEGRAM_TOKEN / GAMING_TELEGRAM_CHAT_ID as secrets, and
+          # point these two lines at them.
+          TELEGRAM_BOT_TOKEN: ${{ secrets.JOBS_TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.JOBS_TELEGRAM_CHAT_ID }}
+          # Free LLM synthesis via Groq (works in the EU, no card).
+          GROQ_KEY: ${{ secrets.GROQ_KEY }}
+          # Optional fallbacks - leave unset.
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python brief.py
+
+      # state.json remembers last week's release dates and wishlist ranks.
+      # Without this commit there is no week-on-week change detection.
+      - name: Persist state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add state.json || true
+          git diff --staged --quiet || git commit -m "Update state $(date -u +%Y-%m-%d)"
+          git push || echo "nothing to push"
