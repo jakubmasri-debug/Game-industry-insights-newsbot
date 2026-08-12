@@ -1,4 +1,90 @@
 {
-  "titles": {},
-  "wishlist": {}
+  "titles": {
+    "ark 2": {
+      "appid": "2050420",
+      "date": "To be announced",
+      "name": "ARK 2"
+    },
+    "blight: survival": {
+      "appid": "1774880",
+      "date": "To be announced",
+      "name": "Blight: Survival"
+    },
+    "deadlock": {
+      "appid": "1422450",
+      "date": "To be announced",
+      "name": "Deadlock"
+    },
+    "dear passengers": {
+      "appid": "4534960",
+      "date": "2026",
+      "name": "Dear Passengers"
+    },
+    "fable": {
+      "appid": "2769570",
+      "date": "Feb 23, 2027",
+      "name": "Fable"
+    },
+    "ill": {
+      "appid": "1757350",
+      "date": "2027",
+      "name": "ILL"
+    },
+    "kingmakers": {
+      "appid": "2109770",
+      "date": "Coming soon",
+      "name": "Kingmakers"
+    },
+    "light no fire": {
+      "appid": "2719590",
+      "date": "To be announced",
+      "name": "Light No Fire"
+    },
+    "phantom blade zero": {
+      "appid": "4115450",
+      "date": "Oct 28, 2026",
+      "name": "Phantom Blade Zero"
+    },
+    "resident evil veronica": {
+      "appid": "4824610",
+      "date": "2027",
+      "name": "Resident Evil Veronica"
+    },
+    "steam frame": {
+      "appid": "4165890",
+      "date": "Coming soon",
+      "name": "Steam Frame"
+    },
+    "the blood of dawnwalker": {
+      "appid": "3751260",
+      "date": "Sep 2, 2026",
+      "name": "The Blood of Dawnwalker"
+    },
+    "total war: warhammer 40,000": {
+      "appid": "4199910",
+      "date": "To be announced",
+      "name": "Total War: WARHAMMER 40,000"
+    },
+    "witchbrook": {
+      "appid": "1846700",
+      "date": "2026",
+      "name": "Witchbrook"
+    }
+  },
+  "wishlist": {
+    "ark 2": 12,
+    "blight: survival": 4,
+    "deadlock": 1,
+    "dear passengers": 5,
+    "fable": 3,
+    "ill": 11,
+    "kingmakers": 6,
+    "light no fire": 2,
+    "phantom blade zero": 14,
+    "resident evil veronica": 9,
+    "steam frame": 15,
+    "the blood of dawnwalker": 13,
+    "total war: warhammer 40,000": 7,
+    "witchbrook": 10
+  }
 }
