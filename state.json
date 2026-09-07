@@ -65,6 +65,11 @@
       "date": "To be announced",
       "name": "Total War: WARHAMMER 40,000"
     },
+    "wardogs": {
+      "appid": "1867240",
+      "date": "Sep 10, 2026",
+      "name": "WARDOGS"
+    },
     "witchbrook": {
       "appid": "1846700",
       "date": "2026",
@@ -72,19 +77,19 @@
     }
   },
   "wishlist": {
-    "ark 2": 14,
+    "ark 2": 13,
     "blight: survival": 5,
     "deadlock": 1,
-    "dear passengers": 4,
-    "fable": 3,
-    "ill": 13,
-    "kingmakers": 10,
+    "dear passengers": 3,
+    "fable": 4,
+    "ill": 12,
+    "kingmakers": 9,
     "light no fire": 2,
     "phantom blade zero": 6,
-    "resident evil veronica": 11,
+    "resident evil veronica": 10,
     "steam frame": 15,
-    "the blood of dawnwalker": 8,
     "total war: warhammer 40,000": 7,
-    "witchbrook": 12
+    "wardogs": 14,
+    "witchbrook": 11
   }
 }
