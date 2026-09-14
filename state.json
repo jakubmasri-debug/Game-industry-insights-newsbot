@@ -50,6 +50,11 @@
       "date": "2027",
       "name": "Resident Evil Veronica"
     },
+    "soulframe": {
+      "appid": "4095380",
+      "date": "Coming soon",
+      "name": "Soulframe"
+    },
     "steam frame": {
       "appid": "4165890",
       "date": "Coming soon",
@@ -87,9 +92,9 @@
     "light no fire": 2,
     "phantom blade zero": 6,
     "resident evil veronica": 10,
-    "steam frame": 15,
+    "soulframe": 15,
+    "steam frame": 14,
     "total war: warhammer 40,000": 7,
-    "wardogs": 14,
     "witchbrook": 11
   }
 }
