@@ -40,6 +40,11 @@
       "date": "To be announced",
       "name": "Light No Fire"
     },
+    "metro 2039": {
+      "appid": "2590240",
+      "date": "Feb 4, 2027",
+      "name": "METRO 2039"
+    },
     "phantom blade zero": {
       "appid": "4115450",
       "date": "Oct 28, 2026",
@@ -87,19 +92,20 @@
     }
   },
   "wishlist": {
-    "ark 2": 13,
+    "ark 2": 12,
     "blight: survival": 5,
     "deadlock": 1,
     "dear passengers": 3,
     "fable": 4,
-    "ill": 12,
-    "kingmakers": 8,
+    "ill": 11,
+    "kingmakers": 9,
     "light no fire": 2,
+    "metro 2039": 15,
     "phantom blade zero": 6,
-    "resident evil veronica": 9,
-    "soulframe": 14,
+    "resident evil veronica": 8,
+    "soulframe": 13,
     "total war: warhammer 40,000": 7,
-    "unrecord": 15,
-    "witchbrook": 11
+    "unrecord": 14,
+    "witchbrook": 10
   }
 }
