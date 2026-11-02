@@ -70,6 +70,11 @@
       "date": "Sep 2, 2026",
       "name": "The Blood of Dawnwalker"
     },
+    "the witcher 3: wild hunt — songs of the past": {
+      "appid": "5006530",
+      "date": "Coming soon",
+      "name": "The Witcher 3: Wild Hunt — Songs of the Past"
+    },
     "total war: warhammer 40,000": {
       "appid": "4199910",
       "date": "To be announced",
@@ -87,25 +92,25 @@
     },
     "witchbrook": {
       "appid": "1846700",
-      "date": "2026",
+      "date": "Jan 28, 2027",
       "name": "Witchbrook"
     }
   },
   "wishlist": {
-    "ark 2": 12,
-    "blight: survival": 6,
+    "ark 2": 11,
+    "blight: survival": 5,
     "deadlock": 1,
-    "dear passengers": 3,
+    "dear passengers": 2,
     "fable": 4,
-    "ill": 11,
-    "kingmakers": 9,
-    "light no fire": 2,
-    "metro 2039": 14,
-    "phantom blade zero": 5,
-    "resident evil veronica": 8,
-    "soulframe": 13,
-    "total war: warhammer 40,000": 7,
-    "unrecord": 15,
-    "witchbrook": 10
+    "ill": 10,
+    "kingmakers": 8,
+    "light no fire": 3,
+    "metro 2039": 13,
+    "resident evil veronica": 7,
+    "soulframe": 12,
+    "the witcher 3: wild hunt — songs of the past": 15,
+    "total war: warhammer 40,000": 6,
+    "unrecord": 14,
+    "witchbrook": 9
   }
 }
